@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    position: relative;
+
+}
+
+
+.content1{
+    position: absolute;
+    top: 25%;
+    right: 60%;
+    width: 31%;
+    border-radius: 50px;
+    padding: 11px;
+    border-color: blueviolet;
+    color: darkgrey;
+    border-style: solid;
+    background-color: black;
+   
+
+}
+.content2{
+    position: absolute;
+    top: 38.5%;
+    right: 11%;
+    width: 47%;
+    border-radius: 50px;
+    padding: 25px;
+    border-color: blueviolet;
+    color: darkgrey;
+    border-style: solid;
+    background-color: black;
+
+}
+
+.img{
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    top: 0;
+    position: fixed;
+}
+.nav{
+    display: flex;
+    align-items: right ;
+    justify-content: space-between;
+    top: 10%;
+}
+.nav-links{
+    padding: 10px;
+    margin-left: 57%;
+    margin-top: 64px;
+    position: fixed;
+    border-radius: 30px;
+    border-color: blueviolet ;
+    border-style: solid;
+    border-width: 3px;
+    background-color: black ;
+    
+}
+
+.nav-links h3{
+    display: inline-block;
+    margin: 0 15px; 
+    
+}
+
+.nav-links h3 a{
+    text-decoration: none;
+    color: darkgrey ;
+    padding: 5px 0;
+    position: relative;
+    
+    
+}
+
+.nav-links h3 a::after{
+    content: '';
+    background: blueviolet;
+    width: 0;
+    height: 3.5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.nav-links h3 a:hover::after{
+    width: 100%;
+}
+.logo{
+    width: 150px;
+    margin-left: 40px;
+    top: 5%;
+    position:fixed; 
+}
+
+.Title{
+    position: fixed;
+    top: 10%;
+    margin-left:210px;
+    text-transform: uppercase;
+    color: darkgrey ;
+  
+}
+.myPhoto{
+    position: fixed;
+    top: 39.5%;
+    left: 13%;
+    border-radius: 15px;
+    overflow: hidden;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 5px;
+}
+.myPhoto2{
+    position: fixed;
+    top: 66%;
+    left: 13%;
+    border-radius: 15px;
+    overflow: hidden;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 5px;
+}
+.myPhoto img {
+    display: block;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+.myPhoto2 img {
+    display: block;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+.myPhoto:hover img {
+    transform: scale(1.1);
+}
+.myPhoto2:hover img {
+    transform: scale(1.1);
+}
+.article{
+    position: fixed;
+    right: 29.3%;
+    top: 90.9%;               
+}
+.article a{ 
+    color: darkgray;
+    text-decoration: none;
+}

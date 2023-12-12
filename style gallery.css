@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    position: relative;
+
+}
+
+.img{
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+}
+.nav{
+    display: flex;
+    align-items: right ;
+    justify-content: space-between;
+    top: 10%;
+}
+.nav-links{
+    padding: 10px;
+    margin-left: 57%;
+    margin-top: 64px;
+    position: fixed;
+    border-radius: 30px;
+    border-color: blueviolet ;
+    border-style: solid;
+    border-width: 3px;
+    background-color: black ;
+    
+}
+
+.nav-links h3{
+    display: inline-block;
+    margin: 0 15px; 
+    
+}
+
+.nav-links h3 a{
+    text-decoration: none;
+    color: darkgrey ;
+    padding: 5px 0;
+    position: relative;
+    
+    
+}
+
+.nav-links h3 a::after{
+    content: '';
+    background: blueviolet;
+    width: 0;
+    height: 3.5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.nav-links h3 a:hover::after{
+    width: 100%;
+}
+.logo{
+    width: 150px;
+    margin-left: 40px;
+    top: 5%;
+    position:fixed; 
+}
+
+.Title{
+    position: fixed;
+    top: 10%;
+    margin-left:210px;
+    text-transform: uppercase !important;
+    color: darkgrey ;
+  
+}
+
+.myPhoto{
+    position: fixed;
+    top: 26.8%;
+    left: 7%;
+    border-radius: 10%;
+    overflow: hidden;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 5px;
+}
+.myPhoto2{
+    position: fixed;
+    top: 26.8%;
+    left: 24.7%;
+    border-radius: 10%;
+    overflow: hidden;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 5px;
+}
+.myPhoto3{
+    position: fixed;
+    top: 26.7%;
+    left: 42.5%;
+    border-radius: 10%;
+    overflow: hidden;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 5px;
+}
+.myPhoto4{
+    position: fixed;
+    top: 26.7%;
+    left: 60.4%;
+    border-radius: 10%;
+    overflow: hidden;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 5px;
+}
+.myPhoto5{
+    position: fixed;
+    top: 26.7%;
+    left: 78%;
+    border-radius: 10%;
+    overflow: hidden;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 5px;
+}
+.myPhoto6{
+    position: fixed;
+    top: 62%;
+    left: 7%;
+    border-radius: 10%;
+    overflow: hidden;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 5px;
+}
+.myPhoto7{
+    position: fixed;
+    top: 62%;
+    left: 24.7%;
+    border-radius: 10%;
+    overflow: hidden;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 5px;
+}
+.myPhoto8{
+    position: fixed;
+    top: 62%;
+    left: 42.5%;
+    border-radius: 10%;
+    overflow: hidden;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 5px;
+}
+.myPhoto9{
+    position: fixed;
+    top: 62%;
+    left: 60.4%;
+    border-radius: 10%;
+    overflow: hidden;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 5px;
+}
+.myPhoto10{
+    position: fixed;
+    top: 62%;
+    left: 78%;
+    border-radius: 10%;
+    overflow: hidden;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 5px;
+    
+}
+
+.myPhoto img {
+    display: block;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+.myPhoto2 img {
+    display: block;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+.myPhoto3 img {
+    display: block;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+.myPhoto4 img {
+    display: block;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+.myPhoto5 img {
+    display: block;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+.myPhoto6 img {
+    display: block;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+.myPhoto7 img {
+    display: block;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+.myPhoto8 img {
+    display: block;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+.myPhoto9 img {
+    display: block;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+.myPhoto10 img {
+    display: block;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+.myPhoto:hover img {
+    transform: scale(1.1);
+}
+.myPhoto2:hover img {
+    transform: scale(1.1);
+}
+.myPhoto10:hover img {
+    transform: scale(1.1);
+}
+.myPhoto3:hover img {
+    transform: scale(1.1);
+}
+.myPhoto4:hover img {
+    transform: scale(1.1);
+}
+.myPhoto5:hover img {
+    transform: scale(1.1);
+}
+.myPhoto6:hover img {
+    transform: scale(1.1);
+}
+.myPhoto7:hover img {
+    transform: scale(1.1);
+}
+.myPhoto8:hover img {
+    transform: scale(1.1);
+}
+.myPhoto9:hover img {
+    transform: scale(1.1);
+}
+.myPhoto10:hover img {
+    transform: scale(1.1);
+}
+
